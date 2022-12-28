@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Item 1123</title>
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body
+        {
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background:rgb(255, 255, 255);
+        }
+        .card
+        {
+            position: relative;
+            border: 2px solid rgb(255, 255, 255);
+            width:300px ;
+            height:400px ;
+            background: #fff;
+            border-radius: 10px;
+            background:rgba(100, 60, 147, 0.539);
+            backdrop-filter: blur(14px);
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+        }
+        .img-bx
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius:10px ;
+            overflow: hidden;
+            transform:translateY(30px) scale(0.5);
+            transform-origin: top;
+        }
+        .img-bx image
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+           
+        }
+        img.yuvarlak
+        {
+            border-radius: 100%;
+            width: 100%;
+            height: 100%;
+        }
+        .content
+        {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding-bottom: 30px;
+        }
+        .content.detail
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .content.detail h2
+        {
+            color: rgb(197, 236, 244);
+            font-size: 1.6em;
+            font-weight: bolder;
+        }
+        .content.detail h2 span
+        {
+            font-size: 0.7em;
+            color: #afdff6;
+            font-weight: bold;
+        }
+        .sci
+        {
+           position: relative;
+           display: flex;
+           margin-top:8px;
+        }
+        .sci li
+        {
+           list-style: none;
+           margin: 2px;
+           margin-right:8px ;
+        }
+        .sci li a
+        {
+           width: 45px;
+           margin-right: 4px;
+           height: 45px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 50%;
+           background: transparent;
+           font-size: 1.5em;
+           color: rgb(21, 21, 20);
+           text-decoration: none;
+           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.23) ;
+           transition: 0.5s;
+           border: 2px solid rgb(163, 163, 241);
+           margin-top: 10px;
+
+        }
+        .sci li a:hover
+        {
+            background: #111111;
+            color: #fff;
+
+        }
+        h1
+        {
+            text-shadow: 0 0 3px rgb(247, 246, 247);
+            color: rgb(0, 0, 0);
+            margin-right: 80px;
+            margin-top: -480px;
+            margin-bottom: 100px;
+            float: right;
+            position: absolute;
+            width: 300px;
+            text-align: center;
+
+
+                }
+                h1 i
+                {
+                    width: 10px;
+                    height: 10px;
+                } 
+                h2
+                {
+                    text-shadow: 0 0 3px lavender;
+                }
+                h2 span
+                {
+                    text-shadow: 0 0 3px blueviolet;
+                }
+    </style>
+</head>
+<body>
+    <h1><i class="fas fa-angel">PROFİLE</i></h1>
+    <div class="card">
+        <div class="img-bx">
+            <img src="image/çiçek.png.jpg" alt="image" class="yuvarlak"/>
+        </div>
+        <div class="content">
+            <div class="detail">
+                <h2>Mira<br><span>Senior Desinger</span></h2>
+                <ul class="sci">
+                    <li>
+                        <a href="#"><i class="fa-thin fa-angel"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
