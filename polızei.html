@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA 5 Polis Departmanı</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+        }
+
+        header {
+            background: #1c2833;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ecf0f1;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: calc(100vh - 80px);
+            text-align: center;
+        }
+
+        .badge {
+            background: #e74c3c;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .action-button {
+            background: #27ae60;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .action-button:hover {
+            background: #2ecc71;
+        }
+
+        footer {
+            background: #1c2833;
+            padding: 10px;
+            text-align: center;
+            color: #95a5a6;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        GTA 5 Polis Departmanı
+    </header>
+
+    <div class="container">
+        <div class="badge">LSPD - Los Santos Police Department</div>
+        <button class="action-button" onclick="reportCrime()">Suç Bildir</button>
+        <button class="action-button" onclick="viewCases()">Olayları Görüntüle</button>
+        <button class="action-button" onclick="contactUs()">İletişim</button>
+    </div>
+
+    <footer>
+        Los Santos Police Department © 2024
+    </footer>
+
+    <script>
+        function reportCrime() {
+            alert('Suç Bildirme Ekranına Yönlendiriliyorsunuz!');
+        }
+
+        function viewCases() {
+            alert('Aktif olayları görüntülüyorsunuz.');
+        }
+
+        function contactUs() {
+            alert('Polis Departmanına ulaşmak için +555-12345 numarasını arayın.');
+        }
+    </script>
+</body>
+</html>
